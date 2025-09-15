@@ -14,3 +14,13 @@ The project is a simple yet interactive **Stopwatch Web Application** built usin
 ---
 
 ## 📂 Project Structure
+index.html # Main HTML file
+style.css # Stylesheet
+script.js # JavaScript functionality
+
+
+## 🛠️ Technologies Used
+- **HTML5** – Structure  
+- **CSS3** – Styling and UI Design  
+- **JavaScript** – Functionality  
+
