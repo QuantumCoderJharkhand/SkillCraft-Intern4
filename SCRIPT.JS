@@ -30,7 +30,7 @@ function startTimer() {
   }
 }
 
-// 🔥 Updated Pause/Resume toggle
+//  Updated Pause/Resume toggle
 function pauseTimer() {
   if (running) {
     // If running → Pause
@@ -67,3 +67,4 @@ document.getElementById("reset").addEventListener("click", resetTimer);
 document.getElementById("lap").addEventListener("click", addLap);
 
 updateDisplay();
+
