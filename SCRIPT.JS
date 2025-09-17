@@ -30,9 +30,18 @@ function startTimer() {
   }
 }
 
+// 🔥 Updated Pause/Resume toggle
 function pauseTimer() {
-  running = false;
-  clearInterval(timer);
+  if (running) {
+    // If running → Pause
+    running = false;
+    clearInterval(timer);
+    document.getElementById("pause").innerText = "Resume";
+  } else {
+    // If paused → Resume
+    startTimer();
+    document.getElementById("pause").innerText = "Pause";
+  }
 }
 
 function resetTimer() {
@@ -41,6 +50,7 @@ function resetTimer() {
   seconds = 0; minutes = 0; hours = 0;
   updateDisplay();
   laps.innerHTML = "";
+  document.getElementById("pause").innerText = "Pause"; // Reset button text
 }
 
 function addLap() {
