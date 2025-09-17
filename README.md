@@ -1,19 +1,19 @@
-# ⏱ Stopwatch Web Application
+# Stopwatch Web Application
 
 The project is a simple yet interactive **Stopwatch Web Application** built using **HTML, CSS, and JavaScript**.
 
 ---
 
-## 🚀 Features
+## Features
 - Start the stopwatch
-- Pause functionality
+- Pause & Resume functionality
 - Reset to `00:00:00`
 - Record and display lap times
 - Clean and responsive UI
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 index.html # Main HTML file
 style.css # Stylesheet
 script.js # JavaScript functionality
